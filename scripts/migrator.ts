@@ -49,7 +49,7 @@ node_compat = true
 crons = ["*/20 * * * *"]
 
 [vars]
-FRONTEND_URL = "${FRONTEND_URL}"
+FRONTEND_URL = "https://blog.lolicon.sbs"
 S3_FOLDER = "${S3_FOLDER}"
 S3_CACHE_FOLDER="${S3_CACHE_FOLDER}"
 S3_REGION = "${S3_REGION}"
