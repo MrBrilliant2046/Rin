@@ -49,12 +49,12 @@ node_compat = true
 crons = ["*/20 * * * *"]
 
 [vars]
-FRONTEND_URL = "https://blog.lolicon.sbs"
+FRONTEND_URL = "https://blog.lolicons.top"
 S3_FOLDER = "${S3_FOLDER}"
 S3_CACHE_FOLDER="${S3_CACHE_FOLDER}"
 S3_REGION = "auto"
 S3_ENDPOINT = "https://d943b8e3ea8f472584439786f79d3acb.r2.cloudflarestorage.com"
-S3_ACCESS_HOST = "https://storage.lolicon.sbs"
+S3_ACCESS_HOST = "https://storage.lolicons.top"
 S3_BUCKET = "brill-blog"
 S3_FORCE_PATH_STYLE = "${S3_FORCE_PATH_STYLE}"
 WEBHOOK_URL = "${WEBHOOK_URL}"
