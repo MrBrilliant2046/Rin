@@ -49,10 +49,10 @@ node_compat = true
 crons = ["*/20 * * * *"]
 
 [vars]
-FRONTEND_URL = "https://blog.lolicons.top"
+FRONTEND_URL = "${FRONTEND_URL}"
 S3_FOLDER = "${S3_FOLDER}"
 S3_CACHE_FOLDER="${S3_CACHE_FOLDER}"
-S3_REGION = "auto"
+S3_REGION = "${S3_REGION}"
 S3_ENDPOINT = "${S3_ENDPOINT}"
 S3_ACCESS_HOST = "${S3_ACCESS_HOST}"
 S3_BUCKET = "${S3_BUCKET}"
