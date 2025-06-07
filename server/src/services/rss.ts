@@ -65,7 +65,7 @@ export async function rssCrontab(env: Env) {
     const faviconKey = getFaviconKey();
 
     let feedConfig: any = {
-        title: env.RSS_TITLE,
+        title: "Lolicon",
         description: env.RSS_DESCRIPTION || "Feed from Rin",
         id: frontendUrl,
         link: frontendUrl,
